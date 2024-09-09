@@ -39,7 +39,7 @@ def aStarAlgo(start_node, stop_node):
                             closed_set.remove(m)
                             open_set.add(m)
         if n == None:
-            print('Path does not exist!')
+            //TYPR UR CODE HERE to print as Path does not exist!
             return None
         
         # if the current node is the stop_node
@@ -63,8 +63,7 @@ def aStarAlgo(start_node, stop_node):
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
-    if v in Graph_nodes:
-        return Graph_nodes[v]
+    TYPE UR CODE HERE
     else:
         return None
 def heuristic(n):
@@ -85,7 +84,7 @@ def heuristic(n):
 }
 '''
 graph = defaultdict(list)
-n,e = map(int,input().split())
+TYPE UR CODE HERE TO GET reads two space-separated integers from the user and stores them in the variables n and e.
 for i in range(e):
     u,v,cost = map(str,input().split())
     t=(v,float(cost))
